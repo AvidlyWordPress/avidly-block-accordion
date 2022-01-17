@@ -1,0 +1,33 @@
+{
+	"apiVersion": 2,
+	"name": "avidly/accordion",
+	"version": "1.0.0",
+	"title": "Accordion",
+	"category": "layout",
+	"icon": "smiley",
+	"description": "Custom accordion block from Avidly.",
+	"keywords": [ "accordion", "avidly" ],
+	"attributes": {
+		"blockId": {
+			"type": "string",
+			"default": null
+		},
+        "content": {
+			"type": "string",
+			"source": "html",
+			"selector": "span"
+		}
+    },
+	"supports": {
+		"html": false,
+		"align": [
+			"wide"
+		],
+		"anchor": true
+	},
+	"textdomain": "avidly-block-accordion",
+	"editorScript": "file:./build/index.js",
+	"script": "file:./build/accordion.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

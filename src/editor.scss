@@ -1,0 +1,17 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+@import 'style';
+
+
+// Editor fix.
+.editor-styles-wrapper .wp-block-avidly-accordion__trigger {
+	.block-editor-plain-text {
+		border-radius: 0;
+		border: 0;
+		background: none;
+	}
+}

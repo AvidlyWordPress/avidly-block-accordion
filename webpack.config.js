@@ -1,0 +1,17 @@
+/**
+ * External Dependencies
+ */
+ const path = require( 'path' );
+
+ /**
+  * WordPress Dependencies
+  */
+ const defaultConfig = require( '@wordpress/scripts/config/webpack.config.js' );
+ 
+ module.exports = {
+	 ...defaultConfig,
+    entry: {
+        ...defaultConfig.entry,
+		"accordion": path.resolve( process.cwd(), 'src', 'accordion.js' ),
+    }
+ }

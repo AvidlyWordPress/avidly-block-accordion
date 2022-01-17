@@ -1,0 +1,14 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-avidly-accordion {
+	/* For Edge bug https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/4806035/ */
+	&__panel[hidden] {
+    	display: none;
+    }
+
+}
