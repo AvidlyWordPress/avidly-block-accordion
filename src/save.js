@@ -36,20 +36,3 @@ export default function save( props ) {
 		</div>
 	);
 }
-
-
-
-/*
-<div { ...useBlockProps.save() }>
-	<div className='wp-block-avidly-accordion__title'>
-		<button type="button" aria-expanded="false" class="wp-block-avidly-accordion__trigger" aria-controls={ `sect-${ props.attributes.blockId }` } id={ `accordion-${ props.attributes.blockId }` }>
-			<span>{ props.attributes.content }</span>
-		</button>
-	</div>
-	<div id={ `sect-${ props.attributes.blockId }` } role="region" aria-labelledby={ `accordion-${ props.attributes.blockId }` } className='wp-block-avidly-accordion__panel' hidden="">
-		<div className='wp-block-avidly-accordion__content'>
-			<InnerBlocks.Content />
-		</div>
-	</div>
-</div>
-*/

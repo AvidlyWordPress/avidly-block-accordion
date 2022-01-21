@@ -17,7 +17,6 @@
 	
 	onButtonClick() {
 	  this.toggle(!this.open);
-	  console.log('click!');
 	}
 	
 	toggle(open) {
@@ -54,6 +53,3 @@ const accordions = document.querySelectorAll('.wp-block-avidly-accordion__trigge
 accordions.forEach((accordionEl) => {
 	new Accordion(accordionEl);
 });
-
-
-console.log('accordion found!');
